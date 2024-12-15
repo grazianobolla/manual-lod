@@ -1,0 +1,8 @@
+[configuration]
+entry_symbol = "gdextension_init"
+compatibility_minimum = 4.3
+reloadable = true
+
+[libraries]
+linux.debug.x86_64 = "bin/libmanual-lod.linux.debug.x86_64.so"
+linux.release.x86_64 = "bin/libmanual-lod.linux.release.x86_64.so"
