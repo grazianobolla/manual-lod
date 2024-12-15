@@ -3,13 +3,13 @@
 #include <gdextension_interface.h>
 #include <godot_cpp/classes/engine.hpp>
 
-#include "my_node.hpp"
+#include "manual_lod.hpp"
 
 void gdextension_initialize(ModuleInitializationLevel p_level)
 {
 	if (p_level == MODULE_INITIALIZATION_LEVEL_SCENE)
 	{
-		ClassDB::register_class<MyNode>();
+		ClassDB::register_class<ManualLODMeshInstance>();
 	}
 }
 
